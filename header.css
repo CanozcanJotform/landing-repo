@@ -4,6 +4,7 @@ body {
     
     color: #18265B;
     font-family: circular;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .container {
     max-width: 1440px;
@@ -100,6 +101,7 @@ h2 {
  */
 .google::before {  
   align-items: center;
+  content: url(images/google.svg);
  }
     .google {
         display: flex;
@@ -423,7 +425,6 @@ input[type=radio] {
 }
 .bottom-nav-bar {
     display: flex;
-    align-items: center;
     justify-content: space-around;
    font-size: 18px;
    font-weight: 400;
@@ -444,7 +445,8 @@ input[type=radio] {
     height: 552px;
     color: whitesmoke;
     width: 1682px;
-    
+    display: flex;
+    justify-content: space-around;
    
     
 }
@@ -501,6 +503,7 @@ input[type=radio] {
 .jotform-h4 {
     /* margin-right: 40px;
     margin-bottom: 40px; */
+
 }
 .marketplace {
     /* margin-right: 15px;
@@ -535,17 +538,14 @@ h4 > a {
     display: flex;
     flex-direction: column;
 } 
-.lowest-part {
-    display: flex;
-    justify-content: space-between;
-}
-.lowest-right {
+ .lowest-right {
     display: flex;
     flex-direction: column;
 }
 .social-media1 {
     /* display: inline-block; */
     margin-top: 20px;
+    color: rgb(166, 171, 198);
 }
 .english-menu {
     background-color: #3C5999;
@@ -562,6 +562,8 @@ h4 > a {
   }
   .lowest-text {
     margin-top: 90px;
+    /* color: rgb(166, 171, 198); */
+    font-weight: 200;
   }
   .inc {
     margin-top: 20px;
@@ -574,9 +576,11 @@ color: #0c174e;
  font-size: 18px;
   }
  .bars {
-    color: #6f76a7;
-    font-size: 18px;
+    /* color: #6f76a7; */
+    font-size: 16px;
     width: 20%;
+    color: rgb(111, 118, 167);
+    font-weight: 400;
  }
  .googleappstore {
   width: 240px;
@@ -586,3 +590,7 @@ color: #0c174e;
   background-color: #ffffff;
   font-size: 16px;
  }
+.appstore {
+    display: flex;
+align-items: center;    
+}
