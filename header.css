@@ -92,7 +92,6 @@ h2 {
 content: url(images/google.svg);  
   align-items: center;
  
-  
  }
     .google {
         display: flex;
@@ -561,3 +560,14 @@ h4 > a {
   .pine-street {
     margin-top: 20px;
   }
+  .support, .company, .jotform-h4, .marketplace {
+color: #0c174e;  
+ font-size: 18px;
+  }
+ .bars {
+    color: #6f76a7;
+    font-size: 18px;
+ }
+ .googleappstore {
+  background-color: red;
+ }
