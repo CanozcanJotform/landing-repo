@@ -1,3 +1,5 @@
+
+
 body {
     
     color: #18265B;
@@ -16,17 +18,19 @@ body {
 .header {
     display: flex;
     /* width: 100% auto; */
-    margin-top: 19px;
+    /* margin-top: 19px; */
     flex-wrap: wrap;
     align-items: center;
     font-family: circular;
     justify-content: flex-start;
+    margin-top: 20px;
 }
 .text1 {
     color: #18265B;
     font-size: 24px;
     margin-left: 16px;
-    margin-bottom: 10px;
+    border: none;
+    background-color: #ffffff;
 }
 /* .flex2 {
     justify-content: space-around;
@@ -39,7 +43,7 @@ body {
 .headerlist {
     display: flex;
     margin: auto;
-    margin-right: 100px;
+    
 }
 .sign {
     border: 1px solid black;
@@ -48,6 +52,11 @@ body {
     margin-left: 25px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+.sign, .headerlistpart, .text1 , .stick {
+  cursor: pointer;
 }
 div > a {
     margin-left: 25px;
@@ -84,14 +93,13 @@ h2 {
     border-radius: 10px;
     padding: 15px;
     margin-top: 10px;
+   
 }
 /* svg::before {
     /* position: absolute; */
  */
-.google::before {
-content: url(images/google.svg);  
+.google::before {  
   align-items: center;
- 
  }
     .google {
         display: flex;
@@ -436,6 +444,7 @@ input[type=radio] {
     height: 552px;
     color: whitesmoke;
     width: 1682px;
+    
    
     
 }
@@ -528,7 +537,7 @@ h4 > a {
 } 
 .lowest-part {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .lowest-right {
     display: flex;
@@ -567,7 +576,13 @@ color: #0c174e;
  .bars {
     color: #6f76a7;
     font-size: 18px;
+    width: 20%;
  }
  .googleappstore {
-  background-color: red;
+  width: 240px;
+ }
+ .headerlistpart {
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
  }
