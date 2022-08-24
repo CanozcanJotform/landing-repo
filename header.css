@@ -8,7 +8,8 @@ body {
 }
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    min-width: 100%;
 }
 .stick {
     width: 2px;
@@ -173,7 +174,8 @@ top: 50px;
     border: none;
 }
 .test {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    min-width: 100%;
 }
 .slider {
     display: flex;
@@ -186,7 +188,7 @@ top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    /* width: 1440px; */
     margin-top: 150px;
 }
 a:hover {
@@ -289,7 +291,7 @@ justify-content: space-around;
 .integrations {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .app {
 width: 522px;
@@ -308,7 +310,7 @@ width: 522px;
 .payments {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h3 {
     font-weight: bold;
@@ -327,7 +329,7 @@ h3 {
 .hipaa {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .compliance {
     width: 518px;
@@ -345,7 +347,7 @@ h3 {
 .conditional-logic {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .conditional-text {
     width: 548px;
@@ -360,7 +362,7 @@ h3 {
 .mobile-part {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .mobile-image {
     width: 656px;
@@ -375,7 +377,7 @@ h3 {
 .import-part {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .import-image {
     width: 752px;
@@ -593,4 +595,17 @@ color: #0c174e;
 .appstore {
     display: flex;
 align-items: center;    
+}
+.tcondition::after {
+    content: "|";
+    /* width: 1px; */
+    margin-left: 8px;
+    font-size: 20px;
+}
+.ppolicy::after {
+    content: "|";
+    margin-left: 8px;
+}
+.fa-solid {
+    font-size: 14px;
 }
