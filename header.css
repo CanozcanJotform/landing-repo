@@ -5,6 +5,7 @@ body {
     color: #18265B;
     font-family: circular;
     background-color: rgba(255, 255, 255, 0.9);
+    margin: 0px;
 }
 .container {
     max-width: 1440px;
@@ -24,8 +25,9 @@ body {
     flex-wrap: wrap;
     align-items: center;
     font-family: circular;
-    justify-content: flex-start;
+    /* max-width: 1340px; */
     margin-top: 20px;
+    width: 1340px;
 }
 .text1 {
     color: #18265B;
@@ -64,14 +66,17 @@ div > a {
     margin-left: 25px;
     margin-top: 10px;
 }
-h2 {
+.jf-webtext {
     font-family: circular;
     color: 18265B;
     font-size: 38px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-top: 70px;
+    width: 590px;
+    text-align: center;
+   
 }
 .centerText {
     color:#18265B;
@@ -105,14 +110,16 @@ h2 {
   content: url(images/google.svg);
  }
     .google {
-        display: flex;
-    justify-content: space-evenly;
+        /* display: flex; */
+    /* justify-content: space-evenly; */
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     background-color: #0076FF;
     color: #ffffff;
     border: none;
+    width: 310px;
+    height: 56px;
 }
 .facebook::before {
     content: url(images/facebook1.svg);
@@ -129,10 +136,14 @@ h2 {
     background-color: #3C5999;
     color: #ffffff;
     border: none;
+    width: 310px;
+    height: 56px;
 }
 .migrate {
     border: 1px solid black;
     background-color: #ffffff;
+    width: 310px;
+    height: 56px;
 }
 /* .woman {
 position: relative;
@@ -172,6 +183,8 @@ top: 50px;
     background-color: #F88B37;
     color: #ffffff;
     border: none;
+    width: 310px;
+    height: 56px;
 }
 .test {
     /* margin-left: 50px; */
@@ -446,7 +459,7 @@ input[type=radio] {
     background-color: rgb(12, 23, 78);
     height: 552px;
     color: whitesmoke;
-    width: 1682px;
+    /* width: 1682px; */
     display: flex;
     justify-content: space-around;
    
@@ -608,4 +621,24 @@ align-items: center;
 }
 .fa-solid {
     font-size: 14px;
+}
+.jotnotification {
+    display: flex;
+    align-items: flex-end;
+}
+.text1::before {
+    content: "|";
+    margin-right: 16px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+.mid-section1 {
+    width: 1350px;
+}
+.survey-container {
+    width: 1350px;
 }
