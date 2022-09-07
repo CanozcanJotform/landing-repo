@@ -1,7 +1,5 @@
 
-
-body {
-    
+body {   
     color: #18265B;
     font-family: circular;
     background-color: rgba(255, 255, 255, 0.9);
@@ -78,10 +76,10 @@ body {
 .sign, .headerlistpart, .text1 , .stick {
   cursor: pointer;
 }
-div > a {
+/* div > a {
     margin-left: 25px;
     margin-top: 10px;
-}
+} */
 .jf-webtext {
     font-family: circular;
     color: 18265B;
@@ -281,6 +279,7 @@ font-family: circular;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-image: url(images/vector8.svg); */
 }
 .free-templates> h3 {
     color: #FEC14F;
@@ -296,9 +295,10 @@ font-family: circular;
     font-size: 18px;
 }
 .multiple-forms {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; */
+    margin-top: -80px;
 }
 .remaining-part {
     display: flex;
@@ -311,7 +311,7 @@ margin-top: 156px;
     line-height: 30px;
 }
 .contactForm {
-    width: 676px;
+    /* width: 676px; */
    
 
 }
@@ -525,7 +525,9 @@ input[type=radio] {
 }
 .fa-brands {
     font-size: 2.5em;
-    width: 25px;
+    /* width: 25px; */
+    margin-left: 4px;
+    margin-top: 10px;
 }
 .english-menu::after {
     content: '';
@@ -578,25 +580,25 @@ h4 > a {
  .lowest-right {
     /* display: flex;
     flex-direction: column; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-top: -16px;
 }
 .social-media1 {
     /* display: inline-block; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: rgb(166, 171, 198);
 }
 .english-menu {
     background-color: #3C5999;
     color: whitesmoke;
-    width: 150px;
     font-size: 16px;
     border-radius: 5px;
     text-align: left;
     border: 1px solid black;
-    width: 170px;
     height: 34px;
     margin-top: 100px;
     margin-left: 158px;
+    padding: 0px 28px 0px 28px;
   }
   .lowest-text {
     margin-top: 90px;
@@ -622,7 +624,7 @@ color: #0c174e;
  }
  .googleappstore {
   width: 240px;
-  margin-top: 46px;
+  margin-top: 42px;
  }
  .headerlistpart {
   border: none;
@@ -661,8 +663,8 @@ align-items: center;     */
     font-size: 26px;
 }
 .button-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-top: 30px;
 }
 .mid-section1 {
