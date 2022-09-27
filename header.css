@@ -100,28 +100,36 @@ body {
 .google::before {
 
   content: url(images/google.svg);
+  padding-right: 16px;
 }
 
 .google {
-  justify-content: space-evenly;
+  
   align-items: center;
   background-color: #0076FF;
   color: #ffffff;
   border: none;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-top: 10px;
+  
 }
 
 .facebook::before {
   content: url(images/facebook1.svg);
+  padding-right: 16px;
 }
 
 .facebook {
   align-items: center;
-  justify-content: space-evenly;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   background-color: #3C5999;
   color: #ffffff;
   border: none;
+  padding-top: 10px;
+  padding-left: 21px;
 }
 
 .migrate {
@@ -173,7 +181,10 @@ a {
   width: 100vw;
 }
 
-.slider {}
+.slider {
+  width: unset;
+  height: unset;
+}
 
 .nav-bottom {
   background-color: #4C72FB;
@@ -200,6 +211,8 @@ a:hover {
   font-weight: bold;
   font-size: 30px;
   color: #18265B;
+  width: 100%;
+  height: auto;
 }
 
 .right-part {
@@ -290,7 +303,10 @@ a:hover {
   max-width: 582px;
   line-height: 30px;
 }
-
+svg {
+  width: 100%;
+  height: auto;
+}
 .easy {
   font-weight: bold;
   font-size: 30px;
@@ -309,7 +325,8 @@ a:hover {
 }
 
 .survey-image {
-  width: 650px;
+  width: 100%;
+  height: auto;
 }
 
 .header-integrations {
@@ -448,10 +465,10 @@ input[type=radio] {
 .request-form>button {
   border-color: #1B2658;
   width: 310px;
-  height: 56px;
   background-color: #ffffff;
   font-size: 19px;
   border-radius: 10px;
+  padding: 18px 0px 18px 0px;
 }
 
 .request {
@@ -462,11 +479,11 @@ input[type=radio] {
 }
 
 .request-test {
-  height: 60px;
   line-height: 30px;
   text-align: center;
   margin-top: 160px;
   max-width: 580px;
+  font-size: 20px;
 }
 
 .bottom-nav-bar {
@@ -516,7 +533,10 @@ h4 {
   display: inline-block;
   position: absolute;
 }
-
+.ford-image {
+  width: 100%;
+  height: auto;
+}
 .ford-paragraph {
   font-size: 22px;
   max-width: 639px;
@@ -544,6 +564,10 @@ h4 {
   justify-content: space-around;
   align-items: center;
 
+}
+.contactForm {
+  width: 100%;
+  height: auto;
 }
 
 .fa-brands {
@@ -582,10 +606,6 @@ h4 {
   flex-direction: column;
 }
 
-.lowest-right {
-  margin-top: -16px;
-}
-
 .social-media1 {
   color: rgb(166, 171, 198);
 }
@@ -597,10 +617,9 @@ h4 {
   border-radius: 5px;
   text-align: left;
   border: 1px solid black;
-  height: 34px;
   margin-top: 100px;
-  margin-left: 158px;
-  padding: 0px 28px 0px 28px;
+  margin-left: 128px;
+  padding: 2px 40px 2px 40px;
 }
 
 .lowest-text {
@@ -634,6 +653,7 @@ h4 {
 .googleappstore {
   width: 240px;
   margin-top: 46px;
+  max-width: 100%;
 }
 
 .headerlistpart {
@@ -726,14 +746,14 @@ h4 {
 
 .lowest-part1 {
   display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  gap: 640px;
+  justify-content: space-between;
+  /* margin: 0 auto; */
   background-color: #1B2658;
   background-color: rgb(12, 23, 78);
   color: whitesmoke;
   display: flex;
   margin-top: 100px;
+  padding: 5px 40px 40px 40px;
 }
 
 #hamburger-menu {
@@ -787,16 +807,16 @@ h4 {
     margin-top: 10px;
     margin-right: 100px;
   }
-
-  .lowest-part1 {
-    gap: 0px;
-  }
 }
 
 @media screen and (max-width: 520px) {
   .sign {
     display: none;
   }
+.english-menu {
+  margin: 30px auto;
+  display: block;
+}
 
   .customize-part {
     display: flex;
@@ -810,8 +830,16 @@ h4 {
   display: block;
   text-align: center;
 }
-
+.bars {
+  margin-right: 20px;
 }
+.appstore {
+  margin-left: 26px;
+}
+body {
+  padding: 0px 18px 0px 18px;
+}
+
 
 @media screen and (max-width: 430px) {
   .text1 {
@@ -821,10 +849,10 @@ h4 {
   .jotsvg {
     margin-top: 5px;
     margin-left: 25px;
-  }
-  .english-menu {
-    margin-left: 140px;
-  }
+    width: unset;
+    height: unset;
+    }
+  
 }
 
 @media screen and (max-width: 910px) {
@@ -844,5 +872,10 @@ h4 {
 @media screen and (max-width: 1260px) {
   .ordered-image {
     order:-1;
+  }
+}
+@media screen and (max-width: 630px) {
+  .test {
+    height: 25vh;
   }
 }
