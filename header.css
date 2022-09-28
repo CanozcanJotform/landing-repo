@@ -94,7 +94,7 @@ body {
   border-radius: 10px;
   margin-top: 10px;
   width: 310px;
-  max-width: 100vw;
+  max-width: 100%;
 }
 
 .google::before {
@@ -176,11 +176,6 @@ a {
   color: #ffffff;
   border: none;
 }
-
-.test {
-  width: 100vw;
-}
-
 .slider {
   width: unset;
   height: unset;
@@ -229,10 +224,11 @@ a:hover {
 .mid-container {
   margin-top: 156px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  gap: 210px;
 }
 
 .more-templates {
@@ -254,12 +250,19 @@ a:hover {
 .customize-part {
   background-color: #0076FF;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 234px;
   background-image: url(images/vector8.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.jotsvg {
+  margin-top: 5px;
+  margin-left: 25px;
+  width: unset;
+  height: unset;
+  }
+
 
 .free-templates {
   display: flex;
@@ -287,16 +290,17 @@ a:hover {
 .multiple-forms {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .remaining-part {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 156px;
   width: 100%;
   flex-wrap: wrap;
+  gap: 210px;
 }
 
 .easy-to-use {
@@ -304,7 +308,7 @@ a:hover {
   line-height: 30px;
 }
 svg {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .easy {
@@ -315,9 +319,10 @@ svg {
 .integrations {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
+  gap: 210px;
 }
 
 .app {
@@ -342,10 +347,11 @@ svg {
 .payments {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 100px;
+  gap: 210px;
 }
 
 h3 {
@@ -366,9 +372,10 @@ h3 {
 .hipaa {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content:center;
   flex-wrap: wrap;
   margin-top: 100px;
+  gap: 210px;
 }
 
 .compliance {
@@ -395,9 +402,10 @@ h3 {
 .conditional-logic {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
+  gap: 210px;
 }
 
 .conditional-text {
@@ -412,9 +420,10 @@ h3 {
 .mobile-part {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
+  gap: 210px;
 }
 
 .mobile-text {
@@ -429,9 +438,10 @@ h3 {
 .import-part {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 156px;
   flex-wrap: wrap;
+  gap: 210px;
 }
 
 .import-text {
@@ -475,7 +485,7 @@ input[type=radio] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between
+  justify-content: center;
 }
 
 .request-test {
@@ -493,7 +503,6 @@ input[type=radio] {
   font-weight: 400;
   color: rgb(111, 118, 167);
   margin-top: 150px;
-
 }
 
 h4 {
@@ -561,9 +570,9 @@ h4 {
 
 .contact-part {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-
+  gap: 210px;
 }
 .contactForm {
   width: 100%;
@@ -747,7 +756,6 @@ h4 {
 .lowest-part1 {
   display: flex;
   justify-content: space-between;
-  /* margin: 0 auto; */
   background-color: #1B2658;
   background-color: rgb(12, 23, 78);
   color: whitesmoke;
@@ -817,12 +825,16 @@ h4 {
   margin: 30px auto;
   display: block;
 }
-
+.request-form>button {
+  width: 220px;
+}
   .customize-part {
     display: flex;
     flex-direction: column;
   }
-
+.text1 {
+  font-size: 20px;
+}
   .text-centered-sm {
     text-align: center;
   }
@@ -832,6 +844,7 @@ h4 {
 }
 .bars {
   margin-right: 20px;
+  margin-bottom: 30px;
 }
 .appstore {
   margin-left: 26px;
@@ -839,20 +852,16 @@ h4 {
 body {
   padding: 0px 18px 0px 18px;
 }
-
+.jotsvg {
+  width: 100px;
+}
+}
 
 @media screen and (max-width: 430px) {
   .text1 {
     display: none;
   }
 
-  .jotsvg {
-    margin-top: 5px;
-    margin-left: 25px;
-    width: unset;
-    height: unset;
-    }
-  
 }
 
 @media screen and (max-width: 910px) {
@@ -878,4 +887,9 @@ body {
   .test {
     height: 25vh;
   }
+}
+@media screen and (max-width: 906px) {
+ less-gap {
+  gap: 50px;
+ }
 }
