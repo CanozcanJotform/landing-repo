@@ -474,7 +474,7 @@ input[type=radio] {
 
 .request-form>button {
   border-color: #1B2658;
-  width: 310px;
+  width: 346px;
   background-color: #ffffff;
   font-size: 19px;
   border-radius: 10px;
@@ -755,7 +755,7 @@ h4 {
 
 .lowest-part1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #1B2658;
   background-color: rgb(12, 23, 78);
   color: whitesmoke;
@@ -831,6 +831,26 @@ h4 {
   .customize-part {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .reference-cases {
+    margin-top: 40px;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .request-test {
+    margin-top: 40px;
+  }
+  .lowest-part1 {
+    margin-top: 0px;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .nav-bottom {
+    margin-left: -20px;
+    padding-right: 40px;
   }
 .text1 {
   font-size: 20px;
@@ -854,6 +874,9 @@ body {
 }
 .jotsvg {
   width: 100px;
+}
+.bottom-nav-bar {
+  margin-top: 40px;
 }
 }
 
@@ -889,7 +912,12 @@ body {
   }
 }
 @media screen and (max-width: 906px) {
- less-gap {
+ .lessGap {
   gap: 50px;
  }
 }
+@media screen and (max-width: 432px) {
+ .jotsvg {
+  margin-top: 11px;
+ }
+  }
